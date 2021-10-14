@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.nav {
+  display: flex;
+  background-color: rgba(105, 71, 8, 0.75);
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  padding: 0 30px;
+  width: 100%;
+  position: fixed;
+  .navBrand {
+    .navBrandTitle {
+      font-weight: bolder;
+    }
+  }
+  .navLinks {
+    width: 30vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}
