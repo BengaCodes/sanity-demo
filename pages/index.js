@@ -1,9 +1,11 @@
 import { Fragment } from 'react'
 import styles from '../styles/Home.module.scss'
 
-export default function Home({data}) {
-  console.table(data.dogs)
+export default function Home({data: {dogs}}) {
 
+  const dogsList = dogs
+
+  console.table(dogsList)
 
 
   return (

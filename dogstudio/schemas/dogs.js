@@ -39,6 +39,18 @@ export default {
           lists: []
         }
       ]
+    },
+    {
+      name: 'owner',
+      type: 'object',
+      fields: [
+        {
+          title: 'Owner',
+          name: 'owner',
+          type: 'reference',
+          to: {type: 'owner'}
+        }
+      ]
     }
   ]
 }
